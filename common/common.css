@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./font.css";
+
+/* hidden */
+.visuallyhidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
+
+/* 접근성 */
+:focus {
+  outline: 1px solid rgb(255, 0, 0) !important;
+  box-shadow: inset 0 0 5px red;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #333333;
+}
+
+.inner {
+  width: 885px;
+  margin: 0 auto;
+}
+
+/* button */
+
+.btn {
+  display: block;
+  width: 180px;
+  height: 45px;
+  margin: 50px auto 0;
+  text-align: center;
+  background: #1c87ea;
+  line-height: 45px;
+  font-family: "SpoqaHans", "malgun gothic", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.works-btn {
+  margin-top: 80px;
+}
+
+.h2-font {
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.indent {
+  padding-left: 75px;
+}

@@ -1,0 +1,104 @@
+@charset "utf-8";
+@import "../common/reset.css";
+@import "../common/common.css";
+@import "../common/font.css";
+
+.tab-menu {
+  margin-top: 35px;
+  height: 170px;
+  padding: 50px 0 0 70px;
+}
+
+.tab-menu::after,
+.works-content .inner::after,
+.cont-detail::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tab-btn {
+  float: left;
+  margin-right: 35px;
+}
+
+.tab-btn a {
+  width: 96px;
+  height: 137px;
+  display: block;
+  position: relative;
+  background: url(../img/folderOff.svg) no-repeat center top/70%;
+}
+
+.tab-btn a span {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.btn-active a {
+  background: url(../img/folderOn.svg) no-repeat center top/ 70%;
+}
+
+.works-content {
+  margin-top: 160px;
+}
+.works-content .inner {
+  padding-top: 40px;
+  position: relative;
+}
+
+.mockup {
+  float: left;
+  width: 570px;
+  height: 331px;
+}
+
+.content h2 {
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  position: absolute;
+  top: -70px;
+  left: 60px;
+}
+
+.cont-detail img {
+  position: absolute;
+  top: 59px;
+  left: 63px;
+  width: 444px;
+  height: 279px;
+  z-index: -10;
+}
+
+.text-wrap {
+  width: 33%;
+  margin-top: 10px;
+  float: right;
+}
+
+.text-wrap p {
+  font-family: "SpoqaHans", "malgun gothic", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.text-wrap a {
+  display: inline-block;
+  font-family: "SpoqaHans", "malgun gothic", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.cont-detail a {
+  font-size: 16px;
+  color: #1c87ea;
+}

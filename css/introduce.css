@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import "../common/reset.css";
+@import "../common/common.css";
+@import "../common/font.css";
+
+#introduce-wrap {
+  width: 100%;
+  background: #cad3db;
+  border-radius: 20px;
+  margin: 106px 0;
+  padding: 60px 0;
+  position: relative;
+}
+
+.content-wrap {
+  width: 100%;
+  position: relative;
+}
+
+.content-wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content > img {
+  position: absolute;
+  top: 25%;
+}
+
+.content .text-wrap {
+  float: right;
+  width: 554px;
+  height: 600px;
+  margin-right: 57px;
+  background: #ffffff;
+  padding: 85px 20px 0 50px;
+  border-radius: 20px;
+}
+
+.content-wrap div:nth-child(3) .text-wrap {
+  padding-top: 70px;
+}
+
+.tab-menu {
+  position: absolute;
+  top: 36px;
+  right: 80px;
+}
+
+.tab-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+  padding: 4px 18px;
+  background: #d9d9d9;
+
+  font-family: "SpoqaHans", sans-serif;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 300;
+  text-align: center;
+
+  display: inline-block;
+  min-width: 60px;
+
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-active {
+  background: #1c87ea;
+  color: #ffffff;
+}
+
+.title {
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-size: 20px;
+}
+
+.title p {
+  margin-top: 10px;
+}
+
+.title p:nth-child(2) {
+  font-weight: 700;
+}
+
+.content-text,
+.skills {
+  margin-top: 30px;
+  font-family: "SpoqaHans", "malgun gothic", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.content-wrap div:nth-child(3) .content-text {
+  margin-top: 20px;
+}
+
+.content-text ol li {
+  margin-top: 10px;
+}
+
+.img-wrap {
+  width: 100%;
+}
+.img-wrap img {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.skills dl dt {
+  font-weight: 500;
+}
+
+.skills dl dd {
+  margin-top: 3px;
+}

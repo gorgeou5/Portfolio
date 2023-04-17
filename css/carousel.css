@@ -1,0 +1,75 @@
+@import "../fonts/";
+
+#carousel-wrap {
+  position: relative;
+}
+
+.carousel {
+  padding-top: 30px;
+  width: 725px;
+  position: relative;
+  margin: auto;
+}
+
+.slides-img {
+  width: 100%;
+}
+
+.text {
+  width: 725px;
+  background-color: #333333;
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-size: 18px;
+  color: #d9d9d9;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+/* prev next btn */
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 25px;
+  color: #333333;
+}
+
+.btn-prev {
+  left: 10px;
+}
+.btn-next {
+  right: 20px;
+}
+
+.dots-wrap {
+  text-align: center;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  float: left;
+}
+
+.slick-dots li button {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  text-indent: -999px;
+  border: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slick-dots li.slick-active button {
+  background: #1c87ea;
+  border: none;
+}

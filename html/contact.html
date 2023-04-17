@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>연락처</title>
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="../common/common.css" />
+    <link rel="stylesheet" href="../common/header-footer.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <script type="text/javascript" src="../common/jquery-2.2.4.min.js"></script>
+  </head>
+  <body>
+    <!-- S: header -->
+    <div id="header">
+      <div class="inner">
+        <div class="headwrap">
+          <a href="../index.html" class="logo">
+            <h1 class="visuallyhidden">최시은 portfolio</h1>
+          </a>
+          <ul id="gnb" class="right-align">
+            <li><a href="./introduce.html">소개</a></li>
+            <li><a href="./works.html">작업물</a></li>
+            <li><a href="./contact.html">연락처</a></li>
+            <li><a href="https://cheee.tistory.com/" target="_blank">블로그</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- //E:header -->
+    <!-- S:main -->
+    <div id="main">
+      <div class="inner">
+        <div class="contact-head">
+          <h2>최시은이 더 궁금하시다면?</h2>
+        </div>
+        <div class="contact-wrap">
+          <div class="contact-message">
+            <p>이메일을 보내주세요. 빠른 시일내로 연락 드리겠습니다.</p>
+          </div>
+          <form
+            id="form-contact"
+            class="gform pure-form pure-form-stacked"
+            method="POST"
+            data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbz32QkV2EY6Tok0JWMzgyDKR6o643OEXfjPLRouheDge61TpQElJrG4gU-i-yhrcwcQGw/exec"
+          >
+            <div class="form-elements">
+              <div class="form-head">
+                <fieldset class="pure-group">
+                  <label for="title">제목</label>
+                  <input id="title" name="title" placeholder="포트폴리오에서 보낸 메일" />
+                </fieldset>
+                <fieldset class="pure-group form-email">
+                  <label for="email">답신 받을 메일 주소</label>
+                  <input id="email" name="email" type="email" value="" required placeholder="your.name@email.com" />
+                </fieldset>
+              </div>
+              <fieldset class="pure-group">
+                <label for="message"></label>
+                <textarea id="message" name="message" rows="10" placeholder="내용을 입력해주세요"></textarea>
+              </fieldset>
+              <fieldset class="pure-group honeypot-field">
+                <label class="honeypot-label" for="honeypot">자동기입 방지입니다 해당 칸을 공백으로 제출해주세요.</label>
+                <input id="honeypot" type="text" name="honeypot" value="" />
+              </fieldset>
+              <button class="button-success pure-button button-xlarge"><i class="fa fa-paper-plane"></i>&nbsp;전송</button>
+            </div>
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div class="thankyou_message" style="display: none">
+              <h2><em>감사합니다</em> 빠른 시일 내로 답 드리겠습니다</h2>
+              <a href="./contact.html" class="button">돌아가기</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- //E:main -->
+    <!-- S: footer -->
+    <div id="footer">
+      <div class="inner">
+        <button class="to-top" tabindex="0"><i class="visuallyhidden">위로 올라가기</i></button>
+        <div class="copy-wrap">
+          <span class="copyright right-align">&copy; Sieun Choi</span>
+        </div>
+      </div>
+    </div>
+    <!-- //E: footer -->
+  </body>
+  <script src="../js/contact.js"></script>
+</html>

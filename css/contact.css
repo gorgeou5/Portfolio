@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import "../common/reset.css";
+@import "../common/common.css";
+@import "../common/font.css";
+
+#main {
+  min-height: 140%;
+}
+
+.contact-head,
+.contact-wrap {
+  margin-top: 60px;
+  padding: 0 30px;
+}
+
+h2 {
+  font-family: "OnGothic", "malgun gothic", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.contact-message p {
+  width: 57.62%;
+  background: #d9d9d9;
+  padding: 34px 0;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-family: "SpoqaHans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#form-contact {
+  margin-top: 50px;
+}
+
+.form-elements {
+  float: right;
+  padding: 50px 20px 60px;
+  border-radius: 20px;
+  background: #1c87ea;
+  color: #ffffff;
+  position: relative;
+}
+
+.form-elements,
+.button-success {
+  font-family: "SpoqaHans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.form-elements input {
+  width: 130%;
+  line-height: 1.8;
+}
+
+.form-elements input,
+#message {
+  font-family: "SpoqaHans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.form-head fieldset {
+  display: inline-block;
+  position: relative;
+}
+
+.form-head fieldset label {
+  position: absolute;
+  top: -27px;
+  left: 0;
+}
+
+.form-email {
+  padding-right: 80px;
+  float: right;
+}
+
+#message {
+  margin-top: 10px;
+  width: 95%;
+}
+
+.honeypot-field {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#honeypot {
+  width: 5%;
+  line-height: 1;
+}
+
+.button-success {
+  width: 100px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 18px;
+  right: 30px;
+  border: none;
+  border-radius: 20px;
+  background: #1b4d7df3;
+  color: #ffffff;
+}

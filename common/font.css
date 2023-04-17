@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 스포카한스 네오 */
+
+@font-face {
+  font-family: "SpoqaHans";
+  src: url("../fonts/SpoqaHanSansNeo-Light.woff2") format("woff2"), url("../fonts/SpoqaHanSansNeo-Light.woff") format("woff"), url("../fonts/SpoqaHanSansNeo-Light.eot") format("eot");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpoqaHans";
+  src: url("../fonts/SpoqaHanSansNeo-Medium.woff2") format("woff2"), url("../fonts/SpoqaHanSansNeo-Medium.woff") format("woff"), url("../fonts/SpoqaHanSansNeo-Medium.eot") format("eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 온고딕 */
+@font-face {
+  font-family: "OnGothic";
+  src: url("../fonts/KoddiUDOnGothic-Regular.woff2") format("woff2"), url("../fonts/KoddiUDOnGothic-Regular.woff") format("woff"), url("../fonts/KoddiUDOnGothic-Regular.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OnGothic";
+  src: url("../fonts/KoddiUDOnGothic-Bold.woff2") format("woff2"), url("../fonts/KoddiUDOnGothic-Bold.woff") format("woff"), url("../fonts/KoddiUDOnGothic-Bold.eot") format("eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
